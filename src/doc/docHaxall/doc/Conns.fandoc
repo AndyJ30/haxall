@@ -164,7 +164,7 @@ their status via the `curStatus` tag:
   - 'remoteUnknown': point in remote system is unknown
 
 If the parent connector is in an error/disable state, then all child points
-automically inherit the connector status.
+automatically inherit the connector status.
 
 The framework will automatically transition the status from "ok" to "stale" after 5min.
 This time can be tuned via the [staleTime]`ConnTuning#staleTime` option.
@@ -192,7 +192,7 @@ the `writeStatus` tag:
   - 'unknown': we don't know anything (boot state)
 
 If the parent connector is in an error/disable state, then all child points
-automically inherit the connector status.
+automatically inherit the connector status.
 
 Point History Sync [#hisSync]
 *****************************
@@ -221,7 +221,7 @@ the `hisStatus` tag:
   - 'syncing': not used by connector framework
 
 If the parent connector is in an error/disable state, then all child points
-automically inherit the connector status.
+automatically inherit the connector status.
 
 For connectors which do not provide history synchronization, you can setup
 current value subscription and use local [history collection]`lib-point::doc#hisCollect`

@@ -270,7 +270,7 @@ The standard behavior of writable points is defined by the [point library]`lib-p
 which manages the 16-level priority array.  When it calculates a new effective
 level should be written, the framework issues the [onWrite]`hxConn::ConnDispatch.onWrite`
 callback.  Your callback should write the new value to the remote system, and
-then call [updateWriteOk]`hxConn::ConnPoint.updateWriteOk` or [updatWriteErr]`hxConn::ConnPoint.updateWriteErr`.
+then call [updateWriteOk]`hxConn::ConnPoint.updateWriteOk` or [updateWriteErr]`hxConn::ConnPoint.updateWriteErr`.
 
 Point History Sync [#hisSync]
 *****************************
@@ -352,7 +352,7 @@ instances for dispatch.  Here is some example code:
       cx := HxContext.curHx
       lib := (FooLib)cx.rt.lib("foo")
       p := lib.point(Etc.toId(pt))
-      return p.conn.send(HxMsg("pointSometing", p))
+      return p.conn.send(HxMsg("pointSomething", p))
     }
   }
 

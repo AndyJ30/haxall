@@ -46,7 +46,7 @@ Task Observe [#taskObserve]
 ***************************
 A tasks managed by the [task ext]`ext-task::doc#subscriptions` can
 subscribe to an observable using tags.  Tasks subscribe to a specific
-observable by applying the appropiate marker tag and its associated
+observable by applying the appropriate marker tag and its associated
 configuration tags.
 
 Fantom Observe [#fantomObserve]

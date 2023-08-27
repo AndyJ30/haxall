@@ -10,7 +10,7 @@ Overview [#overview]
 ********************
 Folio is the tag database used by to store and organize your data.  The
 tagging model allows you to easily design free-form, dynamic models of your
-data.  But it also provides first class support for the [Haysatck ontology]`docHaystack::Ontology`
+data.  But it also provides first class support for the [Haystack ontology]`docHaystack::Ontology`
 so that you can model your data in a standardized and reusable manner.
 
 Folio organizes data into a three level hierarchy:
@@ -205,7 +205,7 @@ The Reads by Plan lists statistics on all the query plans chosen
 by the query optimizer:
   - **plan**: type of plan and tag name
   - **numReads**: number of reads against using the plan
-  - **totalTime**: total time running numReads with the plabn
+  - **totalTime**: total time running numReads with the plan
   - **avgTime**: average time it takes to run this query plan
 
 Note that the current query optimizer cannot use the index for

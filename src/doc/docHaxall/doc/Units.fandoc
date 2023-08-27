@@ -95,7 +95,7 @@ Arithmetic with units is handled as follows:
   null / b   >>  throws UnitErr
 
 As a general rule, if one of the numbers has a null unit, then the
-other operand's unit is carried through.  Adding or subtracing two numbers
+other operand's unit is carried through.  Adding or subtracting two numbers
 with different units will raise an exception - automatic unit conversion
 is **not** performed.  We also make special allowances for °F and °C since
 these temperature systems are not zero based.

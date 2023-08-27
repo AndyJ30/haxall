@@ -69,7 +69,7 @@ escapes making them useful for regular expressions:
 Note that the "$" character is reserved for future interpolation support
 and cannot be used in a string literal unless you backslash escape it:
 
-  // backslash escape dolloar sign
+  // backslash escape dollar sign
   "\$100"
 
 Lists [#lists]
@@ -94,7 +94,7 @@ their keys.
   {foo:2+3}         // foo found to 5 (value can be any expr)
   {foo}             // foo is bound to special "marker" value
   {-foo}            // foo is bound to special "remove" value
-  {n:"Bob",age:35}  // mutiple value separated with comma
+  {n:"Bob",age:35}  // multiple value separated with comma
   {"not tag"}       // use string literal for non-identifier keys
 
 Also see `AxonUsage#dict`.
@@ -161,7 +161,7 @@ Equality Operators [#equality]
 ==============================
 The '==' and '!=' operators test for equals and not equals respectively.
 These operators check for scalar value equality or reference equality.  They
-do **not** check for collection equalilty which can be tested with
+do **not** check for collection equality which can be tested with
 the `equals()` function.  Equality operators will work with null
 and disparate types.
 
@@ -351,7 +351,7 @@ Calls [#calls]
 You call a function with the '()' operator.
 
 The number of parameters a function expects is called its *arity*.
-You must pass enough arguments to a function to satisify its
+You must pass enough arguments to a function to satisfy its
 arity.  If function parameters have defaults, then those arguments
 may be omitted.  It is also permissible to pass *more* arguments
 to a function - the additional arguments are ignored:
@@ -365,7 +365,7 @@ to a function - the additional arguments are ignored:
 
 If you leave off the '()' operator, then the expression evaluates
 to the function itself.  This is useful for passing functions
-around to perform higher order functional programing.
+around to perform higher order functional programming.
 
 Dot Calls [#dotCalls]
 *********************
@@ -410,7 +410,7 @@ argument outside of the parenthesis if it is a lambda expression:
 
 Note that when using dot calls you must include empty '()' parens before
 specifying the lambda argument.  The exception to this rule is if the
-lamdba takes a single argument with no parens:
+lambda takes a single argument with no parens:
 
   list: [3, 4, 1]
   list.map x => -x      // ok
@@ -497,7 +497,7 @@ expressions inside the if expression:
   end
 
 As a convenience you can omit the 'end' keyword if it immediately
-preceeds the 'else' keyword:
+precedes the 'else' keyword:
 
   if (cond1) do
     ...
@@ -550,7 +550,7 @@ The body of the try and catch clauses can be any expression or a 'do' block.
   end
 
 As a convenience you can omit the 'end' keyword if it immediately
-preceed the 'catch' keyword:
+precedes the 'catch' keyword:
 
   try do
     ...

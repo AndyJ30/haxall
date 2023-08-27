@@ -52,7 +52,7 @@ connector using the following tags:
   - [connOpenRetryFreq]`#connOpenRetryFreq`: frequency to retry opens
   - [connPingFreq]`#connPingFreq`: frequency to force pings
 
-Each of the tags is discusssed in more detail below.
+Each of the tags is discussed in more detail below.
 
 actorTimeout [#actorTimeout]
 ============================

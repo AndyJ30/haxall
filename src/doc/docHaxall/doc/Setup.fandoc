@@ -46,7 +46,7 @@ New Haxall releases are posted typically every six to ten weeks.  The
 release schedule always follows SkySpark builds.  Builds are packaged into
 a zip file and posted on [GitHub]`https://github.com/haxall/haxall/releases`.
 
-Download the lastest release to your local machine and unzip it.  The
+Download the latest release to your local machine and unzip it.  The
 root directory will be named "haxall-3.1.xx" based on the current build
 version.  This is called the *home* directory and is structured as follows:
 

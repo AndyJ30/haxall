@@ -18,7 +18,7 @@ The *Haxall daemon* is the default implementation of the runtime.  A daemon
 is created via the 'hx init' command, and executed via 'hx run'.  These
 commands are covered in the `Setup` chapter.
 
-You can customize the bootstrap of a deamon using the Fantom class 'hxd::HxdBoot'.
+You can customize the bootstrap of a daemon using the Fantom class 'hxd::HxdBoot'.
 Here is an example to illustrate using custom config and required libs:
 
   boot := HxdBoot
